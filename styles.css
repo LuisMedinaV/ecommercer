@@ -232,13 +232,13 @@ header .header__nav .header__icon {
 }
 
 .buttons {
-  background-color: yellow;
+  background-color: rgba(49, 4, 131, 0.957);
 }
 
 .btn-danger {
-  --bs-btn-color: #000;
-  --bs-btn-bg: yellow;
-  --bs-btn-border-color: #ffc107;
+  --bs-btn-color: #e5e0e0;
+  --bs-btn-bg: rgba(49, 4, 131, 0.957);
+  --bs-btn-border-color:rgba(49, 4, 131, 0.957);
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #ffca2c;
   --bs-btn-hover-border-color: #ffc720;
@@ -256,11 +256,12 @@ header .header__nav .header__icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(49, 4, 131, 0.957);
 }
 
 .btn-primary {
-  --bs-btn-color: black;
-  --bs-btn-bg: yellow;
+  --bs-btn-color: rgb(239, 235, 235);
+  --bs-btn-bg:rgba(49, 4, 131, 0.957);
   --bs-btn-border-color: #0d6efd;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0b5ed7;
@@ -273,4 +274,12 @@ header .header__nav .header__icon {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.phrase {
+  background-color: rgba(49, 4, 131, 0.957);
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 600;
 }/*# sourceMappingURL=styles.css.map */
